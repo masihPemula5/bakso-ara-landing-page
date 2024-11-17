@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakso Ara</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./asset/meatball-bakso-chef-mascot-logo-600nw-2287065743.webp" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Cinzel:wght@700&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="sweetalert2.all.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/keen-slider@6.8.6/keen-slider.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <div class="header">
+        <video autoplay loop muted playsinline class="bg-video">
+            <source src="./asset/Broll Cinematic Bakso Juragan.webp" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="header-content">
+            <h1 style="color: orange;">Bakso Ara</h1>
+            
+        </div>
+    </div>
+    
+
+    <div id="home" class="container">
+        <h1 style="text-align: center; width: 100%;">Selamat Datang Di Toko Bakso Ara!</h1>
+        <img width="25%" src="./asset/meatball-bakso-chef-mascot-logo-600nw-2287065743.webp" alt="">
+    </div>
+
+    <div id="about" class="about">
+        <h2>Produk Kami</h2>
+        <div id="products" class="container">
+            <div class="produk">
+                <a href="#learn-more" class="cta-button"></a>
+                <img width="100%" src="./asset/gacoan.jpg" alt="">
+                <p>Mie gacoan</p>
+                <a href="https://wa.me/62895396181714"><button class="btn" onclick="buyProduct('Raiden Varian A')">Beli
+                        Sekarang</button></a>
+            </div>
+            <div class="produk">
+                <a href="#learn-more" class="cta-button"></a>
+                <img width="100%" height="300px" src="./asset/pangsit.jpg" alt="">
+                <p>Pangsit pedas</p>
+                <a href="https://wa.me/62895396181714"><button class="btn" onclick="buyProduct('Raiden Varian A')">Beli
+                        Sekarang</button></a>
+            </div>
+            <div class="produk">
+                <a href="#learn-more" class="cta-button"></a>
+                <img width="100%" height="250px" src="./asset/selasih.jpg" alt="">
+                <p>minuman Selasih Sehat</p>
+                <a href="https://wa.me/62895396181714"><button class="btn" onclick="buyProduct('Raiden Varian A')">Beli
+                        Sekarang</button></a>
+            </div>
+        </div>
+    </div>
+
+    <div id="about" class="about">
+        <div id="products" class="container">
+            <div class="product">
+                <img src="./asset/bakso1.jpeg" alt="Produk 1">
+                <h2>Raiden Varian A</h2>
+                <p>Cantik..Imut..Lucu.Anak Sekolahann.</p>
+                <a href="https://wa.me/62895396181714"><button class="btn" onclick="buyProduct('Raiden Varian A')">Beli
+                        Sekarang</button></a>
+            </div>
+            <div class="product">
+                <img src="./asset/bakso2.jpeg" alt="Produk 2">
+                <h2>Raiden Varian B</h2>
+                <p>Sangar..Tatapan Tajam..</p>
+                <a href="https://wa.me/62895396181714"><button class="btn" onclick="buyProduct('Raiden Varian B')">Beli
+                        Sekarang</button></a>
+            </div>
+            <div class="product">
+                <img src="./asset/bakso3.jpeg" alt="Produk 3">
+                <h2>Raiden Varian C</h2>
+                <p>Mode Menjadi Guru..Siap untuk memarahi Anak Bandel.</p>
+                <a href="https://wa.me/62895396181714"><button class="btn" onclick="buyProduct('Raiden Varian C')">Beli
+                        Sekarang</button></a>
+            </div>
+        </div>
+    </div>
+    <section id="learn-more" class="info">
+    </section>
+
+ 
+
+
+
+
+<section class="bg-white">
+  <div class="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
+    <h2 class="text-center text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
+        Review dari customer kami👇🏻
+    </h2>
+
+    <div class="mt-8">
+      <div id="keen-slider" class="keen-slider">
+        <div class="keen-slider__slide opacity-40 transition-opacity duration-500">
+          <blockquote class="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
+            <div class="flex items-center gap-4">
+              <img
+                alt=""
+                src="https://i.pinimg.com/originals/8a/e9/e9/8ae9e92fa4e69967aa61bf2bda967b7b.jpg"
+                class="size-14 rounded-full object-cover"
+              />
+
+              <div>
+                <div class="flex justify-center gap-0.5 text-green-500">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="size-5"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="size-5"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="size-5"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="size-5"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="size-5"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                    />
+                  </svg>
+                </div>
+
+                <p class="mt-0.5 text-lg font-medium text-gray-900">Bowo</p>
+              </div>
+            </div>
+
+            <p class="mt-4 text-gray-700">
+             lumayan sih bakso nya, tapi yang paling mengesankan itu abang nya lho rek pake masker padahal ga covid🤣🤣😂
+            </p>
+          </blockquote>
+        </div>
+
+        <div class="keen-slider__slide opacity-40 transition-opacity duration-500">
+          <blockquote class="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
+            <div class="flex items-center gap-4">
+              <img
+                alt=""
+                src="https://i.pinimg.com/originals/8a/e9/e9/8ae9e92fa4e69967aa61bf2bda967b7b.jpg"
+                class="size-14 rounded-full object-cover"
+              />
+
+              <div>
+                <div class="flex justify-center gap-0.5 text-green-500">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="size-5"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="size-5"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="size-5"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="size-5"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="size-5"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                    />
+                  </svg>
+                </div>
+
+                <p class="mt-0.5 text-lg font-medium text-gray-900">Momii</p>
+              </div>
+            </div>
+
+            <p class="mt-4 text-gray-700">
+              Gilaa gess ini gw suka pangsitnya si pedes dan gurih😁
+            </p>
+          </blockquote>
+        </div>
+
+        <div class="keen-slider__slide opacity-40 transition-opacity duration-500">
+          <blockquote class="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
+            <div class="flex items-center gap-4">
+              <img
+                alt=""
+                src="https://i.pinimg.com/originals/8a/e9/e9/8ae9e92fa4e69967aa61bf2bda967b7b.jpg"
+                class="size-14 rounded-full object-cover"
+              />
+
+              <div>
+                <div class="flex justify-center gap-0.5 text-green-500">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="size-5"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="size-5"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="size-5"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="size-5"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="size-5"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                    />
+                  </svg>
+                </div>
+
+                <p class="mt-0.5 text-lg font-medium text-gray-900">Supriyanto</p>
+              </div>
+            </div>
+
+            <p class="mt-4 text-gray-700">
+                Ini bakso rekommend banget si, apalagi kuahnya kerasa banget🤗
+            </p>
+          </blockquote>
+        </div>
+
+        <div class="keen-slider__slide opacity-40 transition-opacity duration-500">
+          <blockquote class="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
+            <div class="flex items-center gap-4">
+              <img
+                alt=""
+                src="https://i.pinimg.com/originals/8a/e9/e9/8ae9e92fa4e69967aa61bf2bda967b7b.jpg"
+                class="size-14 rounded-full object-cover"
+              />
+
+              <div>
+                <div class="flex justify-center gap-0.5 text-green-500">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="size-5"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="size-5"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="size-5"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="size-5"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="size-5"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                    />
+                  </svg>
+                </div>
+
+                <p class="mt-0.5 text-lg font-medium text-gray-900">joko</p>
+              </div>
+            </div>
+
+            <p class="mt-4 text-gray-700">
+              menurut gw si ya biasa aja seperti bakso kaya umum nya, cuma yang beda bener kata bg jordi penjualnya pake masker bejiirr🤣🤣🤣😂😂 
+            </p>
+          </blockquote>
+        </div>
+      </div>
+
+      <div class="mt-6 flex items-center justify-center gap-4">
+        <button
+          aria-label="Previous slide"
+          id="keen-slider-previous"
+          class="text-gray-600 transition-colors hover:text-gray-900"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-5"
+          >
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+          </svg>
+        </button>
+
+        <p class="w-16 text-center text-sm text-gray-700">
+          <span id="keen-slider-active"></span>
+          /
+          <span id="keen-slider-count"></span>
+        </p>
+
+        <button
+          aria-label="Next slide"
+          id="keen-slider-next"
+          class="text-gray-600 transition-colors hover:text-gray-900"
+        >
+          <svg
+            class="size-5"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M9 5l7 7-7 7"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <div class="footer">
+        <p>&copy; 2024 Bakso Ara. Karya Anak Bangsa.</p>
+    </div>
+
+    <script type="module">
+        import KeenSlider from 'https://cdn.jsdelivr.net/npm/keen-slider@6.8.6/+esm'
+      
+        const keenSliderActive = document.getElementById('keen-slider-active')
+        const keenSliderCount = document.getElementById('keen-slider-count')
+      
+        const keenSlider = new KeenSlider(
+          '#keen-slider',
+          {
+            loop: true,
+            defaultAnimation: {
+              duration: 750,
+            },
+            slides: {
+              origin: 'center',
+              perView: 1,
+              spacing: 16,
+            },
+            breakpoints: {
+              '(min-width: 640px)': {
+                slides: {
+                  origin: 'center',
+                  perView: 1.5,
+                  spacing: 16,
+                },
+              },
+              '(min-width: 768px)': {
+                slides: {
+                  origin: 'center',
+                  perView: 1.75,
+                  spacing: 16,
+                },
+              },
+              '(min-width: 1024px)': {
+                slides: {
+                  origin: 'center',
+                  perView: 3,
+                  spacing: 16,
+                },
+              },
+            },
+            created(slider) {
+              slider.slides[slider.track.details.rel].classList.remove('opacity-40')
+      
+              keenSliderActive.innerText = slider.track.details.rel + 1
+              keenSliderCount.innerText = slider.slides.length
+            },
+            slideChanged(slider) {
+              slider.slides.forEach((slide) => slide.classList.add('opacity-40'))
+      
+              slider.slides[slider.track.details.rel].classList.remove('opacity-40')
+      
+              keenSliderActive.innerText = slider.track.details.rel + 1
+            },
+          },
+          []
+        )
+      
+        const keenSliderPrevious = document.getElementById('keen-slider-previous')
+        const keenSliderNext = document.getElementById('keen-slider-next')
+      
+        keenSliderPrevious.addEventListener('click', () => keenSlider.prev())
+        keenSliderNext.addEventListener('click', () => keenSlider.next())
+    
+        // alert
+      </script>
+      
+      <script>
+        Swal.fire({
+            title: 'Selamat Datang!',
+            text: 'Terima kasih telah mengunjungi situs kami.',
+            icon: 'info',
+            confirmButtonText: 'OK',
+            showClass: {
+                popup: `
+      animate__animated
+     animate__fadeInUp
+      animate__faster
+    `
+            },
+            hideClass: {
+                popup: `
+      animate__animated
+      animate__fadeOutDown
+      animate__faster
+    `
+            }
+        });
+      </script>
+
+</body>
+
+</html>
